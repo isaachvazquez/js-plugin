@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JS Plugin Template</title>
+  <link rel="stylesheet" href="plugin.css">
+</head>
+<body>
+
+  <div class="element">
+    <p>Element</p>
+  </div>
+
+  <div class="element2">
+    <p>Element 2</p>
+  </div>
+
+  <script src="plugin-template.js"></script>
+  <script>
+    // call plugin init function
+    var obj = document.querySelector('.element');
+    obj.plugin({
+      boogers: 'yes',
+      test: true,
+      option1: 'changed'
+    });
+    obj.plugin('_');
+  </script>
+</body>
+</html>
