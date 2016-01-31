@@ -27,11 +27,10 @@ Chrome, ...
       init: function() {
         _.initialized = true;
         _.style.color = 'red';
-        console.log(options);
-        // methods._createPluginElements();
+        methods._createPluginElements();
       },
       _createPluginElements: function() {
-        // console.log(_.children);
+        console.log(_.children);
       },
       publicMethod: function() {
         console.log('Public Method.');
